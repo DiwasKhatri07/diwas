@@ -1,17 +1,12 @@
-name = "diwas-portfolio"
+name = "diwas"
 compatibility_date = "2024-06-15"
-pages_build_output_dir = "dist/public"
+main = "workers-site/index.js"
 
 [site]
 bucket = "./dist/public"
-entry-point = "workers-site"
 
-[[routes]]
-pattern = "diwas.diwaskhatri07.workers.dev/*"
-zone_name = "diwaskhatri07.workers.dev"
-
-# To use a custom subdomain, the user will need to configure it in the Cloudflare Dashboard.
-# Example for a custom domain:
+# If you want to use a specific subdomain, configure it in Cloudflare Dashboard
+# Or uncomment below for a custom domain route:
 # [[routes]]
 # pattern = "portfolio.diwaskhatri.com/*"
 # custom_domain = true
