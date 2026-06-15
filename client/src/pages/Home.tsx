@@ -95,7 +95,7 @@ export default function Home() {
     <div
       className="min-h-screen flex items-center justify-center px-4 py-8 relative overflow-hidden"
       style={{
-        backgroundImage: "url('/manus-storage/background_c43c928c.gif')",
+        backgroundImage: "url('/background.gif')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundAttachment: "fixed",
